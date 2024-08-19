@@ -9,13 +9,13 @@
   "devDependencies": {
     "vite": "^4.0.0",
     "gh-pages": "^3.2.3",
-    "@vitejs/plugin-react": "^4.2.0"  // Added this line
+    "@vitejs/plugin-react": "^4.2.0"
   },
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"  // Changed 'build' to 'dist' because that's the default Vite output folder
+    "deploy": "gh-pages -d dist"
   },
   "homepage": "https://nihi97.github.io/Company-checker",
   "eslintConfig": {
