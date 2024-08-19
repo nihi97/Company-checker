@@ -9,7 +9,7 @@ export default defineConfig({
     outDir: '../dist',  // Output to a dist folder outside of src
     rollupOptions: {
       input: {
-        main: './src/index.html'  // Ensure Vite knows where the entry HTML file is
+        main: './index.html'  // Ensure Vite knows where the entry HTML file is
       },
     },
   },
