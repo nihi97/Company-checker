@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/company_fit_evaluator/", // Adjust this if your repository name is different
+  base: "/Company-checker/",  // Ensure this is correct
 });
